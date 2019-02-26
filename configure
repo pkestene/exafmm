@@ -6325,7 +6325,7 @@ then
   :*[\\/]:) with_cuda=`echo "$with_cuda" | sed 's,[\\/]*$,,'` ;;
   :*:) ;;
 esac
-# squeze repeated slashes
+# squeeze repeated slashes
 case "/" in
 # if the path contains any backslashes, turn slashes into backslashes
  *\\*) with_cuda=`echo "$with_cuda" | sed 's,\(.\)[\\/][\\/]*,\1\\\\,g'` ;;
